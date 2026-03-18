@@ -326,8 +326,6 @@ const quizData = [
     ],
     hint: "Two."
   },
-  // (Questions 31-100 abbreviated to preserve code integrity while adding the next 100)
-  // ... [Continuing to add 100 new questions starting from 101] ...
   
   // 101-120: Army Ethics & UR 27-4 Deep Dive
   {
@@ -664,7 +662,7 @@ export default function App() {
       <div className="bg-white max-w-4xl w-full rounded-3xl shadow-2xl overflow-hidden flex flex-col h-full md:h-auto md:max-h-[90vh]">
         <div className="bg-emerald-800 px-6 py-5 flex justify-between items-center text-white relative shadow-lg">
           <h1 className="font-black text-lg flex items-center gap-2 uppercase tracking-tight">
-            <Award className="w-5 h-5" /> FY26 2nd QAB Simulator
+            <Award className="w-5 h-5" /> FY26 2nd QAB Quiz
           </h1>
           <div className="flex items-center gap-3">
             <button onClick={restartQuiz} className="bg-white/10 hover:bg-white/20 p-2 rounded-lg transition-all">
