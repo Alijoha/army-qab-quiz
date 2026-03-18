@@ -462,7 +462,7 @@ export default function App() {
       </div>
       
       <div className="mt-8 text-emerald-800/40 text-[10px] font-black tracking-[0.4em] uppercase animate-pulse">
-         Quiz Made by 1SG Atehortua
+         Quiz Made by 1SG AT
       </div>
       
       <style>{`
